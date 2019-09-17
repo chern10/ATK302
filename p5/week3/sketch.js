@@ -12,7 +12,7 @@ let c;
 noStroke(); // Don't draw a stroke around shapes
 c = color('#181568');
 fill(c); // Use 'c' as fill color
-rect(0, 0, 1439, 40); // Draw rectangle
+rect(0, 0, 1439, 40); // Draw rectangle2
 
 noStroke(); // Don't draw a stroke around shapes
 c = color('#173189');
