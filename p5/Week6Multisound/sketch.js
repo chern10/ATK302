@@ -8,7 +8,6 @@ function preload() {
   song3 = loadSound('assets/thrill.mp3');
 
   // set each song to loop and then immediately pause it so it doesn't play
-
   song1.loop();
   song1.stop();
   song2.loop();
