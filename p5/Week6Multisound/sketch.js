@@ -1,7 +1,6 @@
 var song1, song2, song3;
 var myState = 0;
 
-
 function preload() {
   song1 = loadSound('assets/horn.wav');
   song2 = loadSound('assets/sketch.mp3');
