@@ -3,9 +3,9 @@ var myState = 0;
 
 
 function preload() {
-  song1 = loadSound('assets/DrunkInLove.mp3');
-  song2 = loadSound('assets/NaughtyGirl.mp3');
-  song3 = loadSound('assets/SeeMeAgain.mp3');
+  song1 = loadSound('assets/horn.wav');
+  song2 = loadSound('assets/sketch.mp3');
+  song3 = loadSound('assets/beyonce.mp3');
 
   // set each song to loop and then immediately pause it so it doesn't play
   song1.loop();
