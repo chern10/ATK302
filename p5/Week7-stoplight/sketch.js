@@ -1,5 +1,7 @@
 var myState = 0;
 var timer = 200;
+var x=0;
+var velocity=5;
 
 
 function setup() {
@@ -24,6 +26,7 @@ function draw() {
       fill('green');
       ellipse(width / 2, height / 2 + 125, 100, 100); // bottom
       doTimer(1,50);
+      velocity=5;
 
 
       break;
@@ -37,6 +40,7 @@ function draw() {
       fill('yellow');
       ellipse(width / 2, height / 2, 100, 100); // middle
       doTimer(2,100);
+      velocity=2;
 
       break;
 
@@ -48,10 +52,16 @@ function draw() {
       ellipse(width / 2, height / 2, 100, 100); // middle
       ellipse(width / 2, height / 2 + 125, 100, 100); // bottom
       doTimer(0,200);
+      velocity=0;
 
       break;
   }
-
+  fill('coral');
+  rect(x, height-100,80,50);
+  x=x+velocity;
+  if(x>width){
+    x=0;
+  }
 
 }
 function doTimer(variableState,variableTimer){
