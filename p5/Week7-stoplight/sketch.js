@@ -3,12 +3,12 @@ var timer = 200;
 var x=0;
 var velocity=5;
 
-
 function setup() {
   // put setup code here
   createCanvas(800, 800);
   rectMode(CENTER);
   ellipseMode(CENTER);
+
 }
 
 function draw() {

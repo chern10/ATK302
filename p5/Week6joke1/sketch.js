@@ -16,7 +16,6 @@ function draw() {
     background('white');
     text("Because he felt crummy",100,100);
     break;
-
   }
 }
 function mouseReleased(){

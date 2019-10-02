@@ -15,7 +15,6 @@ function draw() {
     if (myTimer >= 200){
         state++ ;  // this will go to the next state. You can also put myState = 3 or something
         myTimer = 0 ;  // people always forget to reset the timer!!
-
      }
 
     break;
