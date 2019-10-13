@@ -6,6 +6,7 @@ var velocity = 5;
 
 function setup() {
   createCanvas(1403, 800);
+  textAlign(CENTER);
   // put setup code here
 }
 
@@ -26,7 +27,9 @@ function draw() {
 
       //  pea(width /2, 571);
       doBG();
-
+      fill('black');
+      textSize(60);
+      text('I\'m gonna be late!! I\'m gonna be late!', width/2,400);
       velocity = 7;
       if (x > width) {
         myState = 2;
@@ -46,6 +49,10 @@ function draw() {
 
     case 3:
       background('blue');
+      fill('white');
+      textSize(70);
+      text('I\'m starting to get sleepy', width/2,400);
+      text('click me to put me to sleep',width/2,500);
       if (x > width) {
         x = 0;
       }
@@ -55,6 +62,13 @@ function draw() {
 
     case 4:
       background('black');
+      fill('coral');
+      textSize(20);
+      text('z',width/2,200);
+      textSize(40);
+      text('z',width/2,275);
+      textSize(70);
+      text('z',width/2,329);
       velocity = 0;
       break;
 
