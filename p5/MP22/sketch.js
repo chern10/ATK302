@@ -4,6 +4,7 @@ var timer = 200;
 var x = 0;
 var velocity = 5;
 
+
 function setup() {
   createCanvas(1403, 800);
   textAlign(CENTER);
