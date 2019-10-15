@@ -1,5 +1,6 @@
 function setup() {
   // put setup code here
+
   var names = []; // declaring an array
   names[0] = "chewie"; // putting chewie in the first space (which is space 0)
   names[1] = "leia";
@@ -21,18 +22,15 @@ function setup() {
   dwarves[4] = "sleepy" ;
   dwarves[5] = "sneezy" ;
   dwarves[6] = "bashful" ;
-  x
+
   for (var i = 0; i < dwarves.length; i++) { // you can just copy this or memorize it
-    console.log(names[i]);
+    console.log(dwarves[i]);
   }
 
-  var randomNumbers = new Array(100) ;
+  var randomNumbers = new Array(100);
   for (var i = 0; i < 100; i++) {
     randomNumbers[i] = random(100) ; // put a random number in the array
     console.log(randomNumbers[i]) ;  // print out these array elements
-  }
   console.log("the number in space " + i + " = " + randomNumbers[i]) ;
-
-function draw() {
-  // put drawing code here
+}
 }
