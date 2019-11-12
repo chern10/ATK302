@@ -21,8 +21,8 @@ function setup() {
   //spawn cars
 
   libra = loadImage("images/libra.png")
-  birds[0] = loadImage("images/bird1.png")
-  birds[1] = loadImage("images/bird2.png")
+  birds[0] = loadImage("images/comet-1.jpg")
+  birds[1] = loadImage("images/comet2.jpg")
   birds[2] = loadImage("images/bird3.png")
   yodaL = loadImage("images/libra.png");
   yodaR = loadImage("images/libra.png");

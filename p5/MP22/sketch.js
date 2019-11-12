@@ -20,6 +20,7 @@ function draw() {
 
       velocity = 12;
       if (x > width) {
+        x = 0 ;
         myState = 1;
       }
       break;
