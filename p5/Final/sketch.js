@@ -32,7 +32,7 @@ function gotData(data) {
   for (let i = 0; i < data.length; i++) {
     namesArray.push(new Circle(data[i].platform));
   }
-
+ 
 }
 
 function setGradient(x, y, w, h, c1, c2, axis) {
