@@ -61,7 +61,7 @@ function draw() {
       image(universe, 200, 400);
       game();
       timer++;
-      if (timer > 800) {
+      if (timer > 600) {
         myState = 3;
         song1.stop();
         timer = 0;
