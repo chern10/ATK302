@@ -1,6 +1,9 @@
 var daysunpos=200;
 var nightsunpos=200;
-
+var sky;
+function preload(){
+  sky= loadImage("images/chicago.png");
+}
 function nighttime() {
   background(159, 189, 237); // rgb  0-255
 
@@ -10,6 +13,8 @@ function nighttime() {
     stroke(215 - i, 128 - i, 64);
     line(0, 350 - i, width, 350 - i); // x,y,x,y
   }
+
+//skyline1
 
   // sun
   noStroke();
@@ -32,6 +37,8 @@ function nighttime() {
   fill(0, 100, 0); // rgb
   rect(0, 350, width, 1000);
 
+  image(sky, 0,225);
+  push();
 
   //street
   fill('#6E6C6C');

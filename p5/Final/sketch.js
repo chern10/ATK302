@@ -7,6 +7,7 @@ var myState = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  
 } // end setup
 
 
