@@ -37,45 +37,6 @@ function nighttime() {
   fill('#6E6C6C');
   quad(660, 350, 740, 350, 1175, 1000, 275, 1000);
 
-  // left tree 1
-  fill(67, 51, 8); // tree brown
-  rect(420, 350, 10, 20); // trunk
-  fill(23, 69, 29);
-  ellipse(426, 372, 20, 20); // tree top
-  ellipse(424, 392, 30, 20);
-  ellipse(430, 382, 20, 20);
-  //right tree1
-  fill(67, 51, 8); // tree brown
-  rect(920, 194, 10, 20); // trunk
-  fill(23, 69, 29);
-  ellipse(926, 172, 20, 20); // tree top
-  ellipse(924, 192, 30, 20);
-  ellipse(930, 182, 20, 20);
-
-  // tree 2
-  push();
-  translate(-40, -40);
-  scale(1.5);
-  fill(67, 51, 8); // tree brown
-  rect(320, 194, 10, 20); // trunk
-  fill(23, 69, 29);
-  ellipse(326, 192, 20, 20); // tree top
-  ellipse(324, 172, 30, 20);
-  ellipse(330, 182, 20, 20);
-  pop();
-
-  push();
-  translate(-40, -40);
-  scale(1.5);
-  fill(67, 51, 8); // tree brown
-  rect(720, 194, 10, 20); // trunk
-  fill(23, 69, 29);
-  ellipse(726, 192, 20, 20); // tree top
-  ellipse(724, 172, 30, 20);
-  ellipse(730, 182, 20, 20);
-
-  pop();
-
 }
 
 
