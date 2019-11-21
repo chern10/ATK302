@@ -4,12 +4,14 @@
 var myState = 0;
 
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 } // end setup
 
 
 function draw() {
+
   switch (myState) {
     case 0:
       nighttime();
