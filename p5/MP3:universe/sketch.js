@@ -10,7 +10,7 @@ var universe;
 
 function preload() {
   song1 = loadSound('images/om.mp3');
-  song1.stop();
+
 
 }
 
@@ -55,15 +55,19 @@ function draw() {
       text('Click to Start', 100, 500);
 
       break;
+      case 4:
+      song1.play();
+      myState=1;
+      break;
 
     case 1: // the game state
-      song1.play();
+
       image(universe, 200, 400);
       game();
       timer++;
       if (timer > 600) {
         myState = 3;
-        song1.stop();
+        song1.pause();
         timer = 0;
       }
       break;
@@ -87,9 +91,11 @@ function draw() {
 }
 
 function mouseReleased() {
+
   switch (myState) {
     case 0:
-      myState = 1;
+      myState = 4;
+
       break;
 
     case 2: //win
@@ -103,6 +109,7 @@ function mouseReleased() {
       myState = 0;
 
       break;
+
 
   }
 }
