@@ -46,9 +46,9 @@ function draw() {
 
 function mouseReleased() {
   myState++;
-  daysunpos=200;
-  nightsunpos = 200 ;
-  if (myState>2) myState=0;
+  daysunpos = 200;
+  nightsunpos = 200;
+  if (myState > 2) myState = 0;
 }
 
 function mouseLocation() {
