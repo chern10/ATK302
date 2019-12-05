@@ -82,7 +82,7 @@ fill('#606060');
 strokeWeight(0);
 triangle(0, 169, 255, 322, -30, 322);
 
-fill('#000069');
+fill('#606060');
 strokeWeight(0);
 triangle(344, 179, 633, 322, 196, 322);
 
